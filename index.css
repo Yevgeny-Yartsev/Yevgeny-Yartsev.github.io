@@ -1,0 +1,84 @@
+header, section, footer, aside, nav, article, figure, figcaption,
+hgroup{
+  display: block;
+} 
+#main_menu{
+  display: block;
+  float:left;
+  text-align: center;
+  width: 10%;
+  background: #8c8a9d;
+  border: 3px solid #000000;
+}
+#main_menu li {
+  display: block;
+  list-style: none;
+  text-align: center;
+  margin: 5px auto;
+  font: bold 18px verdana, sans-serif;
+}
+#cont{
+  padding-inline-start: 0px;
+}
+
+#main_section {
+  float: left;
+  width: 20px;
+  height: 575px;
+  background: #B59410;
+  padding: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-radius: 20px;
+  border: 1px solid #000000;
+}
+#aside_section {
+height: 575px;
+float: left;
+width: 40%;
+padding: 20px;
+background: #e1e1e1;
+margin-left: 5px;
+margin-right: 5px;
+border-radius: 20px;
+border: 1px solid #000000;
+}
+
+#WebGL{
+  display: none;
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px auto;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 90%;
+}
+a:hover, a:active {
+  background-color: green;
+  color: white;
+  width: 90%;
+}
+
+#titlebox 
+{
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    padding: 15px;
+    text-align: center;
+    border: 3px solid #000000;
+    background: #7462ff;
+    border-radius: 20px;
+}
+#title 
+{
+    font: bold 26px verdana, sans-serif;
+    border-radius: 20px;
+}

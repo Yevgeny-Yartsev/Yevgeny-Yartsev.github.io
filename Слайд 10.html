@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js" integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t" crossorigin="anonymous"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+    
+        <script>
+            function max()
+            {
+                var el = parent.document.getElementById("main_section");
+                el.style.transition="all 0.5s"
+                el.style.width = "40%";
+                el.style.padding = "20px";
+
+                var ele=parent.document.getElementById("WebGL");
+                ele.style.display="block";
+            }
+        </script>
+
+    </head>
+    <body>
+        <h1 style="text-align:center"> Кодировка </h1>
+        <div style="font-size: 20px;">
+           WebGl, Three.js и Mathbox позволяют визуализировать различную научную информацию, как например:
+           <ul>
+                <li>Взаимодействие двух <a href="fields.html" target="dframe" onclick="max()">полей</a> </li>
+                <li><a href="solar.html" target="dframe" onclick="max()">Модель</a> Солнечной системы</li>
+                <li><a href="latex.html" target="dframe" onclick="max()">Разброс</a> каких либо данных в пространстве </li>
+           </ul>
+        </div>
+       
+    </body>
+</html>
